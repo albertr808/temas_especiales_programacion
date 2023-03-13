@@ -1,0 +1,5 @@
+GET http://localhost:3000/students?limit=2 HTTP/1.1
+
+GET http://localhost:3000/students/legalAge?limit=100 HTTP/1.1
+
+GET http://localhost:3000/students/rangeAge?limit=100 HTTP/1.1
